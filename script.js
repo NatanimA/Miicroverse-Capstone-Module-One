@@ -63,7 +63,7 @@ function populateSpeakers(speaker) {
 }
 
 function createSpeakers() {
-  for (let i = 0; i < speakers.length; i++) {
+  for (let i = 0; i < speakers.length; i+=1) {
     populateSpeakers(speakers[i]);
   }
 }
