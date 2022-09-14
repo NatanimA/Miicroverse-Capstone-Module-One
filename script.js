@@ -4,6 +4,9 @@ const navBar = document.querySelector('#mobile-navbar');
 const body = document.querySelector('body');
 const headline = document.querySelector('#headline');
 
+
+
+
 const speakers = [{
     name: 'Elon Musk',
     title: 'Founder & CEO',
@@ -64,13 +67,9 @@ function populateSpeakers(speaker){
 
 
 function createSpeakers() {
-    for (let i = 0; i < speakers.length; i += 1) {
+    for (let i = 0; i < speakers.length; i++) {
         populateSpeakers(speakers[i]);
-        if (i > 1) {
-            document.querySelector(`.speaker${i + 1}`).classList.add('toggle');
-        }
     }
-    featured.innerHTML += '<div id="more">More <a href="#Speaker-loc"><i class="fas fa-chevron-down"></i></a></div>';
 }
 
 createSpeakers();

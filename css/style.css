@@ -10,9 +10,14 @@ body.active {
     display: inline;
 }
 
- #nav-top {
+
+ #nav-menu{
     display: none;
 } 
+
+#brand {
+    display: none;
+}
 
 #program {
     display: none;
@@ -53,6 +58,10 @@ body.active {
     margin-bottom: 10px;
 }
 
+#featured-header h2 {
+    text-align: center;
+}
+
 .mobile-nav-link a {
     text-decoration: none;
     border-bottom: 1px solid orangered;
@@ -70,6 +79,10 @@ body.active {
 }
 
 #headline.active {
+    filter: blur(4px);
+}
+
+#about.active {
     filter: blur(4px);
 }
 
@@ -358,7 +371,7 @@ nav {
     padding: 5%;
     border: 1px orangered;
     margin-top: 5%;
-    z-index: 2;
+    z-index: -1;
 }
 
 #about p {
@@ -750,5 +763,181 @@ nav {
     font-size: 1.1rem;
     line-height: 1.5;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0%;
+}
+
+#about-message {
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin-left: 300px;  
+}
+
+#about-container h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#about-container p {
+    color: black;
+    font-size: 1.1rem;
+}
+
+#about-logo {
+    margin: 5% 0 0;
+    padding-bottom: 3%;
+}
+
+#about-logo h2 {
+    color: black;
+}
+
+#about-logo p {
+    position: relative;
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#about-logo .container {
+    width: 70%;
+}
+
+#about-logo #logo {
+    margin-top: 3%;
+}
+
+#about-logo #logo img {
+    width: 150px;
+}
+
+#past-bootcamps {
+    margin: 3% 0 1%;
+}
+
+#past-bootcamps .container {
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#past-bootcamps p {
+    color: black;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#bootcamp-cards {
+    margin: 5% 0 5% 0;
+    width: 100%;
+    align-items: center;
+    gap: 3%;
+    display: grid;
+    grid-template: 1fr /1fr 1fr;
+}
+
+.bootcamp-card{
+    min-height: 300px;
+}
+#partners-container  {
+   display: flex;
+   flex-direction: column;
+}
+
+#footer {
+    background: #272a31;
+    padding: 2%;
+}
+
+#footer .flex-container {
+    width: 70%;
+    justify-content: left;
+}
+
+#footer img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+#footer .flex-container p {
+    font-family: var(--fontFamily-lato);
+    font-weight: normal;
+    color: var(--White);
+    font-size: 0.8rem;
+}
+
+
+#footer {
+    display: flex;
+    padding: 2%;
+    background-color: #fff;
+}
+
+#footer .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .container img {
+    width: 100px;
+    margin-left: 50px;
+}
+
+#footer .container p {
+  
+    font-weight: normal;
+    color: #000;
+    font-size:1.3rem;
+    margin-right: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    visibility:visible;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: row;
+    visibility: visible;
+    margin-left: 400px;
+    list-style: none;
+    text-align: none;
+    font-size: 1.2rem;
+    color: #000;
+    font-family: 'lato',sans-serif;
+}
+
+.nav-link a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+}
+
+#brand {
+    display: flex;
+}
+
+#brand img{
+   width: 100px; 
+   height: 50px;
+}
+
 
 }
