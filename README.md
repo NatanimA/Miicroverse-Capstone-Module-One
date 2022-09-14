@@ -2,8 +2,9 @@
 
 # Microverse-Capstone-Module-One
 
-> This is a project I have done learning in microverse,I have used designs from figma to implement this project,If you like it please give it a Star.⭐️:wink:
-![](assets/NatanimPortfolio.png)
+> This is a project I have done learning in microverse,I have used designs from Behance to implement this project,If you like it please give it a Star.⭐️:wink:
+
+>Design credit Cindy Shin in Behance
 
 ## Built With
 
