@@ -2,7 +2,7 @@
   "name": "miicroverse-capstone-module-one",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
+  "main": "about.js",
   "dependencies": {
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
@@ -233,6 +233,7 @@
     "http-proxy-agent": "^5.0.0",
     "http-signature": "^1.2.0",
     "http2-wrapper": "^1.0.3",
+    "https": "^1.0.0",
     "https-proxy-agent": "^5.0.1",
     "human-signals": "^1.1.1",
     "humanize-ms": "^1.2.1",
