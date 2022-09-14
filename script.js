@@ -1,4 +1,4 @@
-const featured = document.querySelector("#featured-speakers");
+const featured = document.querySelector("#featured-speakers  #speaker-container");
 const hamburger = document.querySelector('#hamb');
 const navBar = document.querySelector('#mobile-navbar');
 const body = document.querySelector('body');
@@ -48,11 +48,8 @@ const speakers = [{
 },
 ];
 
-speakers.forEach((speaker) => {
-    const speakerContainer = document.createElement("div");
-    speakerContainer.className = "container";
-    speakerContainer.id="speaker-container";
-    speakerContainer.innerHTML = `<article class="${speaker.class} speaker">
+function populateSpeakers(speaker){
+        featured.innerHTML += `<article class="${speaker.class} speaker">
   <div class="speaker-img">
       <img src="${speaker.image}" alt="">
   </div>
@@ -63,8 +60,24 @@ speakers.forEach((speaker) => {
             <p>${speaker.description}</p>
         </div>
         </article>`;
-    featured.appendChild(speakerContainer);
-});
+}
+
+
+function createSpeakers() {
+    for (let i = 0; i < speakers.length; i += 1) {
+        populateSpeakers(speakers[i]);
+        if (i > 1) {
+            document.querySelector(`.speaker${i + 1}`).classList.add('toggle');
+        }
+    }
+    featured.innerHTML += '<div id="more">More <a href="#Speaker-loc"><i class="fas fa-chevron-down"></i></a></div>';
+}
+
+createSpeakers();
+
+
+
+
 
 hamburger.addEventListener('click', () => {
     headline.classList.toggle('active');
