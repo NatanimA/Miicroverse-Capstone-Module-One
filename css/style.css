@@ -658,7 +658,6 @@ header {
   #top-nav a {
     text-decoration: none;
     color: #fff;
-
   }
 
   #mobile-navbar {
@@ -723,7 +722,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-left: 20%;
-    margin-right: 30%; 
+    margin-right: 30%;
   }
 
   #program a {
