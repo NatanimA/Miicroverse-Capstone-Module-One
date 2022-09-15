@@ -270,7 +270,6 @@ header {
   font-size: 1.2rem;
   margin: auto;
   margin-top: 20px;
-
   margin-bottom: 200px;
   font-weight: bold;
   color: #fff;
@@ -632,7 +631,7 @@ header {
     display: flex;
     justify-content: flex-end;
     height: 30px;
-    background-color: rgb(65, 65, 72);;
+    background-color: rgb(65, 65, 72);
   }
 
   #top-nav .container {
@@ -650,11 +649,18 @@ header {
     text-decoration: none;
   }
 
+  .nav-link a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+  }
+
   #top-nav a {
     text-decoration: none;
     color: #fff;
 
   }
+
   #mobile-navbar {
     display: none;
   }
@@ -685,7 +691,6 @@ header {
   #features-list {
     display: inline-block;
     width: 100vw;
-    
   }
 
   .feature-cards {
@@ -718,14 +723,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-left: 20%;
-    margin-right: 30%;
-    
-  }
-
-  .nav-link a {
-    text-decoration: none;
-    margin-left: 20px;
-    color: #000;
+    margin-right: 30%; 
   }
 
   #program a {
@@ -926,7 +924,7 @@ header {
     flex-direction: row;
     visibility: visible;
     list-style: none;
-    font-size: 1.0rem;
+    font-size: 1rem;
     color: #000;
     font-family: 'lato', sans-serif;
   }
