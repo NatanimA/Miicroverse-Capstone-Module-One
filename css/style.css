@@ -2,12 +2,23 @@
 
 body {
   font-family: 'lato', sans-serif;
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body.active {
   overflow-y: hidden;
   display: inline;
+}
+
+#desktop-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5%;
+  justify-content: space-between;
+}
+
+#top-nav {
+  display: none;
 }
 
 #brand {
@@ -16,18 +27,6 @@ body.active {
 
 #program {
   display: none;
-}
-
-#nav-top-container ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
-}
-
-#nav-top-container ul li {
-  list-style: none;
 }
 
 #mobile-nav-menu {
@@ -84,15 +83,15 @@ body.active {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 30px;
+  height: 6px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   background-color: rgb(77, 75, 75);
 }
 
 #hamb.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(5px) rotate(45deg);
   background-color: #000;
 }
 
@@ -101,22 +100,16 @@ body.active {
 }
 
 #hamb.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-17px) rotate(-45deg);
   background-color: #000;
 }
 
 header {
-  top: 0;
   width: 100%;
+  margin-top: 2%;
   display: flex;
   background-color: #fff;
-  padding: 20px 36px 15px 24px;
-  box-sizing: border-box;
   z-index: 1;
-}
-
-nav {
-  display: block;
 }
 
 #nav-menu {
@@ -217,6 +210,7 @@ nav {
 
 #features {
   background: #272a31 url(../assets/pattern-bg.png);
+  width: 100%;
 }
 
 #features-header {
@@ -229,6 +223,7 @@ nav {
 #features-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #features-list {
@@ -346,6 +341,7 @@ nav {
 }
 
 #about .container {
+  margin-top: 3%;
   flex-direction: column;
   justify-content: center;
   min-height: 500px;
@@ -369,14 +365,13 @@ nav {
   background-color: white;
   color: grey;
   padding: 5%;
-  border: 1px orangered;
   margin-top: 5%;
   z-index: -1;
 }
 
 #about p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
@@ -423,7 +418,7 @@ nav {
 
 #about-logo p {
   color: grey;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-weight: normal;
   text-align: center;
   line-height: 1.4;
@@ -465,7 +460,7 @@ nav {
 #past-bootcamps p {
   color: grey;
   line-height: 1.4;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-weight: normal;
   text-align: center;
   font-family: 'lato', sans-serif;
@@ -622,9 +617,44 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 5%;
     padding-left: 100px;
   }
 
+  header {
+    position: absolute;
+    margin-top: 0%;
+    top: 0%;
+    left: 0%;
+  }
+
+  #top-nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    background-color: rgb(65, 65, 72);;
+  }
+
+  #top-nav .container {
+    color: #fff;
+    margin-right: 20%;
+  }
+
+  #top-nav .container ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    list-style: none;
+    width: 100%;
+    gap: 20px;
+    text-decoration: none;
+  }
+
+  #top-nav a {
+    text-decoration: none;
+    color: #fff;
+
+  }
   #mobile-navbar {
     display: none;
   }
@@ -683,8 +713,13 @@ nav {
 
   #program {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 30%;
+    
   }
 
   .nav-link a {
@@ -701,13 +736,11 @@ nav {
     margin-top: 40px;
     align-self: center;
     font-family: 'lato', sans-serif;
-    margin-left: 300px;
   }
 
   #program hr {
     font-weight: 500;
     width: 340px;
-    margin-left: 450px;
   }
 
   #featured-speakers {
@@ -884,18 +917,16 @@ nav {
 
   nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    visibility: visible;
+    flex-direction: column;
+    width: 100vw;
   }
 
   #nav-menu {
     display: flex;
     flex-direction: row;
     visibility: visible;
-    margin-left: 400px;
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: #000;
     font-family: 'lato', sans-serif;
   }
