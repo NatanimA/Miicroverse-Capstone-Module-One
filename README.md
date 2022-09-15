@@ -21,6 +21,8 @@
 
 
 To get a local copy up and running follow these simple example steps.
+  
+  * [Command-based syntax]
 
   $ executable <command> [options]
   ```
@@ -39,7 +41,6 @@ To get a local copy up and running follow these simple example steps.
   $ git pull origin capstone
   ```
 
-****
 
 ### Prerequisites
 **No prerequisties needed**
