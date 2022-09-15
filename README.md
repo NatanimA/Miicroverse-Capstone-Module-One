@@ -21,6 +21,24 @@
 
 
 To get a local copy up and running follow these simple example steps.
+
+  $ executable <command> [options]
+  ```
+
+  For example.
+
+  ```
+  $ git clone https://github.com/NatanimA/Miicroverse-Capstone-Module-One.git
+  ```
+
+  ```
+  $ git checkout -b capstone
+  ```
+
+  ```
+  $ git pull origin capstone
+  ```
+
 ****
 
 ### Prerequisites
