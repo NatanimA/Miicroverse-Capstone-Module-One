@@ -234,6 +234,8 @@ nav {
 #features-list {
   display: grid;
   margin-top: 15%;
+  margin-left: 1%;
+  margin-right: 5%;
   grid-template: repeat(5, 1fr) / 1fr;
   gap: 20px;
 }
@@ -270,9 +272,11 @@ nav {
   height: 50px;
   width: 50%;
   border-radius: 25px;
-  margin: auto;
   font-size: 1.2rem;
-  margin-top: 25px;
+  margin: auto;
+  margin-top: 20px;
+
+  margin-bottom: 200px;
   font-weight: bold;
   color: #fff;
   background-color: orangered;
@@ -649,24 +653,18 @@ nav {
   }
 
   #features-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: inline-block;
     width: 100vw;
-    gap: 20px;
+    
   }
 
   .feature-cards {
-    flex: 1 1 190px;
-    display: grid;
-    grid-template: 1fr 1fr 2fr / 1fr;
-    justify-content: flex-start;
-    justify-items: center;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    gap: 10px;
-    padding: 3%;
+    margin-left: 10px;
+    float: left;
+    width: 13%;
   }
 
   .features-cards p {
