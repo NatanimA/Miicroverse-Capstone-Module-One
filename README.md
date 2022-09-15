@@ -42,7 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-## Acknowledgement
+-Demo : https://natanima.github.io/Miicroverse-Capstone-Module-One/
+
+## Acknowledgement 
 - Design: credit Cindy Shin from Behance
 
 ## 🤝 Contributing
