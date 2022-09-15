@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse-Capstone-Module-One
+# Software Dev Bootcamp
 
-> This is a project I have done learning in microverse,I have used designs from Behance to implement this project,If you like it please give it a Star.⭐️:wink:
+> This is a project I have done learning in microverse,It is a Software bootcamp website where visitors can understand and learn the main program during the bootcamp and they can learn about partners of the bootcamp as well,In the website I have included many Tech influencers in the world whom motivates me,so if you like the project please don't forget to give it a star.
+![](assets/landing.JPG)
 
->Design credit Cindy Shin in Behance
+![](assets/mobileLanding.JPG)
 
 ## Built With
 
@@ -41,7 +42,8 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-
+## Acknowledgement
+- Design: credit Cindy Shin from Behance
 
 ## 🤝 Contributing
 
