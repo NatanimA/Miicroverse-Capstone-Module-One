@@ -3,7 +3,10 @@
 # Software Dev Bootcamp
 
 > This is a project I have done learning in microverse,It is a Software bootcamp website where visitors can understand and learn the main program during the bootcamp and they can learn about partners of the bootcamp as well,In the website I have included many Tech influencers in the world whom motivates me,so if you like the project please don't forget to give it a star.
+
+
 ![](assets/landing.JPG)
+
 
 ![](assets/mobileLanding.JPG)
 
