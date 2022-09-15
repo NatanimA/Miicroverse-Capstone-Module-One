@@ -22,13 +22,8 @@
 
 To get a local copy up and running follow these simple example steps.
   
-  * [Command-based syntax]
 
-  $ executable <command> [options]
-  ```
-
-  For example.
-
+   $ executable <command> [options]
   ```
   $ git clone https://github.com/NatanimA/Miicroverse-Capstone-Module-One.git
   ```
